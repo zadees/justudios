@@ -1,14 +1,13 @@
 {
-  "main.css": "/justudios/static/css/main.9dee6a02.chunk.css",
-  "main.js": "/justudios/static/js/main.181eff33.chunk.js",
-  "main.js.map": "/justudios/static/js/main.181eff33.chunk.js.map",
-  "static/js/1.fa92c112.chunk.js": "/justudios/static/js/1.fa92c112.chunk.js",
-  "static/js/1.fa92c112.chunk.js.map": "/justudios/static/js/1.fa92c112.chunk.js.map",
+  "main.css": "/justudios/static/css/main.cb5716e0.chunk.css",
+  "main.js": "/justudios/static/js/main.8acc6bf2.chunk.js",
+  "main.js.map": "/justudios/static/js/main.8acc6bf2.chunk.js.map",
+  "static/js/1.03bd2463.chunk.js": "/justudios/static/js/1.03bd2463.chunk.js",
+  "static/js/1.03bd2463.chunk.js.map": "/justudios/static/js/1.03bd2463.chunk.js.map",
   "runtime~main.js": "/justudios/static/js/runtime~main.a73a4295.js",
   "runtime~main.js.map": "/justudios/static/js/runtime~main.a73a4295.js.map",
-  "static/media/logo.svg": "/justudios/static/media/logo.5d5d9eef.svg",
-  "static/css/main.9dee6a02.chunk.css.map": "/justudios/static/css/main.9dee6a02.chunk.css.map",
+  "static/css/main.cb5716e0.chunk.css.map": "/justudios/static/css/main.cb5716e0.chunk.css.map",
   "index.html": "/justudios/index.html",
-  "precache-manifest.f4797c3675e62ff347f37169a5b94f2f.js": "/justudios/precache-manifest.f4797c3675e62ff347f37169a5b94f2f.js",
+  "precache-manifest.a274280aff0b4a1564bc8d49b1b56f03.js": "/justudios/precache-manifest.a274280aff0b4a1564bc8d49b1b56f03.js",
   "service-worker.js": "/justudios/service-worker.js"
 }
