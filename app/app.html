@@ -1,0 +1,32 @@
+<header>
+  <div class="row">
+    <div class="small-12 columns">
+      <h3>Justudios.com</h3>
+      <p>A Website Development & Maintenance Company</p>
+    </div>
+  </div>
+  <div class="row">
+    <nav class="small-12 columns">
+      <a [routerLink]="['/']">
+        Home
+      </a>
+      |
+      <a [routerLink]="['/about']">
+        About
+      </a>
+      |
+      <a [routerLink]="['/services']">
+        Services Offered
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main>
+	<router-outlet></router-outlet>
+</main>
+
+
+<footer class="text-center">
+  ©<a href="/" title="justudios website development & maintenance">Justudios.com</a> {{ currentYear }} | All Rights Reserved
+</footer>
