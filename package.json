@@ -1,26 +1,15 @@
 {
-    "title": "Clean Blog Jekyll",
-    "name": "startbootstrap-clean-blog-jekyll",
-    "version": "4.0.5",
-    "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
+    "title": "Justudios",
+    "name": "Justudios - Blog",
+    "version": "1.0.0",
+    "description": "Justudios - Web Development",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "React",
+        "Javascript"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "https://justudios.com",
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Justin Flowers",
     "repository": {
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll.git"
