@@ -2,8 +2,8 @@ title:             Justudios
 email:             justin@justudios.com
 description:       Justudios - Web Developer & Furniture Maker
 author:            Justin Flowers
-baseurl:           "/justudios"
-url:               "http://zadees.github.io"
+baseurl:           "/"
+url:               "http://justudios.com"
 
 # Social Profiles
 linkedin_username: justudio
