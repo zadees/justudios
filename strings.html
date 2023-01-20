@@ -1,0 +1,53 @@
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Strings - Justudios</title><meta name="description" content="In JavaScript, a string is a sequence of characters enclosed in single or double quotes. For example, you could create a string like this: let myString = 'Hello, world!'; Once you have a string, you can use various methods and properties to manipulate it. For&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://justudios.com/strings.html"><link rel="alternate" type="application/atom+xml" href="https://justudios.com/feed.xml"><link rel="alternate" type="application/json" href="https://justudios.com/feed.json"><meta property="og:title" content="Strings"><meta property="og:image" content="https://justudios.com/media/posts/18/javascript-code-header.jpg"><meta property="og:image:width" content="5760"><meta property="og:image:height" content="3840"><meta property="og:site_name" content="Justudios"><meta property="og:description" content="In JavaScript, a string is a sequence of characters enclosed in single or double quotes. For example, you could create a string like this: let myString = 'Hello, world!'; Once you have a string, you can use various methods and properties to manipulate it. For&hellip;"><meta property="og:url" content="https://justudios.com/strings.html"><meta property="og:type" content="article"><link rel="stylesheet" href="https://justudios.com/assets/css/style.css?v=b3f16276484dd65e095b85ede0946afc"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://justudios.com/strings.html"},"headline":"Strings","datePublished":"2022-12-08T00:53","dateModified":"2022-12-08T08:36","image":{"@type":"ImageObject","url":"https://justudios.com/media/posts/18/javascript-code-header.jpg","height":3840,"width":5760},"description":"In JavaScript, a string is a sequence of characters enclosed in single or double quotes. For example, you could create a string like this: let myString = 'Hello, world!'; Once you have a string, you can use various methods and properties to manipulate it. For&hellip;","author":{"@type":"Person","name":"Haeglo","url":"https://justudios.com/authors/haeglo/"},"publisher":{"@type":"Organization","name":"Haeglo"}}</script><link href="https://haeglo.com/prism.css" rel="stylesheet"><script async src="https://www.googletagmanager.com/gtag/js?id=G-1NQXBHZTSN"></script><script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1NQXBHZTSN');</script></head><body><div class="site-container"><header class="top" id="js-header"><a class="logo" href="https://justudios.com/">Justudios</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li class="has-submenu"><a href="https://justudios.com/tags/javascript/" title="JavaScript" target="_self" aria-haspopup="true">Javascript</a><ul class="navbar__submenu level-2" aria-hidden="true"><li><a href="https://justudios.com/tags/javascript-tutorials/" title="JavaScript tutorials" target="_self">Tutorials</a></li><li><a href="https://justudios.com/tags/tutorials/" title="JavaScript Knowledge Base" target="_self">Knowledge Base</a></li></ul></li></ul></nav></header><main><article class="post"><div class="hero"><figure class="hero__image hero__image--overlay"><img src="https://justudios.com/media/posts/18/javascript-code-header.jpg" srcset="https://justudios.com/media/posts/18/responsive/javascript-code-header-xs.jpg 300w, https://justudios.com/media/posts/18/responsive/javascript-code-header-sm.jpg 480w, https://justudios.com/media/posts/18/responsive/javascript-code-header-md.jpg 768w, https://justudios.com/media/posts/18/responsive/javascript-code-header-lg.jpg 1024w, https://justudios.com/media/posts/18/responsive/javascript-code-header-xl.jpg 1360w, https://justudios.com/media/posts/18/responsive/javascript-code-header-2xl.jpg 1600w" sizes="(max-width: 1600px) 100vw, 1600px" loading="eager" height="3840" width="5760" alt=""></figure><header class="hero__content"><div class="wrapper"><h1>Strings</h1></div></header></div><div class="wrapper post__entry"><p>In JavaScript, a string is a sequence of characters enclosed in single or double quotes. For example, you could create a string like this:</p><pre class="line-numbers"><code class="language-js">let myString = "Hello, world!";</code></pre><p>Once you have a string, you can use various methods and properties to manipulate it. For example, you can use the <code>length</code> property to find out how many characters are in a string:</p><pre class="line-numbers"><code class="language-js">let myString = "Hello, world!";
+console.log(myString.length); // This will output 13</code></pre><p>There are a number of methods available on the String object that allow you to manipulate strings in various ways. Some of the most commonly used string methods are:</p><ul><li><code>charAt()</code>: This method returns the character at a specific index in a string.</li><li><code>concat()</code>: This method concatenates (joins) two or more strings together.</li><li><code>indexOf()</code>: This method returns the index of the first occurrence of a specified substring within a string.</li><li><code>lastIndexOf()</code>: This method returns the index of the last occurrence of a specified substring within a string.</li><li><code>replace()</code>: This method replaces a specified substring with another substring.</li><li><code>slice()</code>: This method extracts a part of a string and returns a new string.</li><li><code>split()</code>: This method splits a string into an array of substrings based on a specified separator.</li><li><code>toLowerCase()</code>: This method converts a string to lowercase letters.</li><li><code>toUpperCase()</code>: This method converts a string to uppercase letters.</li></ul><pre class="line-numbers"><code class="language-js">// charAt() example
+const str = "Hello, world!";
+console.log(str.charAt(0));  // Output: "H"
+
+// concat() example
+const str1 = "Hello, ";
+const str2 = "world!";
+console.log(str1.concat(str2));  // Output: "Hello, world!"
+
+// indexOf() example
+const str = "Hello, world!";
+console.log(str.indexOf("world"));  // Output: 7
+
+// lastIndexOf() example
+const str = "Hello, world! Hello, world!";
+console.log(str.lastIndexOf("world"));  // Output: 18
+
+// replace() example
+const str = "Hello, world!";
+console.log(str.replace("world", "there"));  // Output: "Hello, there!"
+
+// slice() example
+const str = "Hello, world!";
+console.log(str.slice(7, 12));  // Output: "world"
+
+// split() example
+const str = "Hello, world!";
+console.log(str.split(" "));  // Output: ["Hello,", "world!"]
+
+// toLowerCase() example
+const str = "Hello, world!";
+console.log(str.toLowerCase());  // Output: "hello, world!"
+
+// toUpperCase() example
+const str = "Hello, world!";
+console.log(str.toUpperCase());  // Output: "HELLO, WORLD!"
+
+    </code></pre><p>These are just some of the most commonly used string methods in JavaScript. There are many other useful string methods available, and you can learn more about them by reading the documentation or checking out other <a href="https://www.w3schools.com/js/js_string_methods.asp" target="_blank" rel="nofollow noopener noreferrer">tutorials online</a>.</p></div><footer class="wrapper post__footer"><ul class="post__tag"><li><a href="https://justudios.com/tags/javascript/">Javascript</a></li><li><a href="https://justudios.com/tags/tutorials/">JavaScript Knowledge Base</a></li></ul><div class="post__share"></div></footer></article><nav class="post__nav"><div class="post__nav-inner"><div class="post__nav-prev"><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://justudios.com/assets/svg/svg-map.svg#arrow-prev"/></svg> <a href="https://justudios.com/functions.html" class="post__nav-link" rel="prev"><span>Previous</span> Functions</a></div></div></nav></main><footer class="footer"><div class="footer__copyright"><p>Powered by Publii</p></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://justudios.com/assets/svg/svg-map.svg#toparrow"/></svg></button></footer></div><script defer="defer" src="https://justudios.com/assets/js/scripts.min.js?v=f47c11534595205f20935f0db2a62a85"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script><script src="https://haeglo.com/prism.js"></script></body></html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>For Loop - Justudios</title><meta name="description" content="The For Loop In JavaScript, the for loop is a control flow statement that allows you to execute a block of code a certain number of times. It consists of three parts: the loop initialization, the loop condition, and the loop iteration. The loop initialization&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://justudios.com/javascript-for-loop.html"><link rel="alternate" type="application/atom+xml" href="https://justudios.com/feed.xml"><link rel="alternate" type="application/json" href="https://justudios.com/feed.json"><meta property="og:title" content="For Loop"><meta property="og:image" content="https://justudios.com/media/posts/15/javascript-code-header.jpg"><meta property="og:image:width" content="5760"><meta property="og:image:height" content="3840"><meta property="og:site_name" content="Justudios"><meta property="og:description" content="The For Loop In JavaScript, the for loop is a control flow statement that allows you to execute a block of code a certain number of times. It consists of three parts: the loop initialization, the loop condition, and the loop iteration. The loop initialization&hellip;"><meta property="og:url" content="https://justudios.com/javascript-for-loop.html"><meta property="og:type" content="article"><link rel="stylesheet" href="https://justudios.com/assets/css/style.css?v=b3f16276484dd65e095b85ede0946afc"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://justudios.com/javascript-for-loop.html"},"headline":"For Loop","datePublished":"2022-12-07T14:19","dateModified":"2022-12-07T15:52","image":{"@type":"ImageObject","url":"https://justudios.com/media/posts/15/javascript-code-header.jpg","height":3840,"width":5760},"description":"The For Loop In JavaScript, the for loop is a control flow statement that allows you to execute a block of code a certain number of times. It consists of three parts: the loop initialization, the loop condition, and the loop iteration. The loop initialization&hellip;","author":{"@type":"Person","name":"Haeglo","url":"https://justudios.com/authors/haeglo/"},"publisher":{"@type":"Organization","name":"Haeglo"}}</script><link href="https://haeglo.com/prism.css" rel="stylesheet"><script async src="https://www.googletagmanager.com/gtag/js?id=G-1NQXBHZTSN"></script><script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1NQXBHZTSN');</script></head><body><div class="site-container"><header class="top" id="js-header"><a class="logo" href="https://justudios.com/">Justudios</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li class="has-submenu"><a href="https://justudios.com/tags/javascript/" title="JavaScript" target="_self" aria-haspopup="true">Javascript</a><ul class="navbar__submenu level-2" aria-hidden="true"><li><a href="https://justudios.com/tags/javascript-tutorials/" title="JavaScript tutorials" target="_self">Tutorials</a></li><li><a href="https://justudios.com/tags/tutorials/" title="JavaScript Knowledge Base" target="_self">Knowledge Base</a></li></ul></li></ul></nav></header><main><article class="post"><div class="hero"><figure class="hero__image hero__image--overlay"><img src="https://justudios.com/media/posts/15/javascript-code-header.jpg" srcset="https://justudios.com/media/posts/15/responsive/javascript-code-header-xs.jpg 300w, https://justudios.com/media/posts/15/responsive/javascript-code-header-sm.jpg 480w, https://justudios.com/media/posts/15/responsive/javascript-code-header-md.jpg 768w, https://justudios.com/media/posts/15/responsive/javascript-code-header-lg.jpg 1024w, https://justudios.com/media/posts/15/responsive/javascript-code-header-xl.jpg 1360w, https://justudios.com/media/posts/15/responsive/javascript-code-header-2xl.jpg 1600w" sizes="(max-width: 1600px) 100vw, 1600px" loading="eager" height="3840" width="5760" alt=""></figure><header class="hero__content"><div class="wrapper"><h1>For Loop</h1></div></header></div><div class="wrapper post__entry"><h3>The For Loop</h3><p>In JavaScript, the <code>for</code> loop is a control flow statement that allows you to execute a block of code a certain number of times. It consists of three parts: the loop initialization, the loop condition, and the loop iteration. The loop initialization is where you initialize the variables that will be used in the loop. The loop condition is a boolean expression that determines whether the loop will continue to run. If the condition is true, the code inside the loop will be executed, and then the iteration statement will be executed to update the state of the loop. The loop will continue to run as long as the condition remains true. Here is an example of a <code>for</code> loop in JavaScript:</p><pre class="line-numbers"><code class="language-js">for (var i = 0; i &lt; 5; i++) {
+  console.log("Hello, world!");
+}
+
+// OUTPUT
+// "Hello, world!"
+// "Hello, world!"
+// "Hello, world!"
+// "Hello, world!"
+// "Hello, world!"
+</code></pre><p>In this example, the <code>for</code> loop will execute the code inside the loop 5 times, with the variable <code>i</code> starting at 0 and increasing by 1 each time the loop runs. On the first iteration, <code>i</code> will be 0, on the second iteration it will be 1, and so on. The loop will stop running when <code>i</code> reaches 5, because the loop condition (<code>i &lt; 5</code>) will be false.</p><h3>The For Of Loop</h3><p>In JavaScript, the <code>for of</code> loop that loops over iterable data structures like Arrays. In this example we will loop through an array of user objects. We'll show you the traditional <code>for</code> loop vs the <code>for of</code> loop.</p><h5>For Loop</h5><pre class="line-numbers"><code class="language-js">const users = [
+  { name: 'John', age: 27 },
+  { name: 'Sarah', age: 30 },
+  { name: 'Maria', age: 43 }
+];
+
+// loop through the users and log out a message
+for(let i = 0; i &lt; users.length; i++){
+  const message = `User ${users[i].name} is ${users[i].age} years old.`;
+  console.log(message);
+}
+    
+// OUTPUT
+// "User John is 27 years old."
+// "User Sarah is 30 years old."
+// "User Maria is 43 years old."</code></pre><h5>For Of Loop</h5><pre class="line-numbers"><code class="language-js">const users = [
+  { name: 'John', age: 27 },
+  { name: 'Sarah', age: 30 },
+  { name: 'Maria', age: 43 }
+];
+
+// loop through the users and log out a message
+for(let user of users){
+  const message = `User ${user.name} is ${user.age} years old.`;
+  console.log(message);
+}
+    
+// OUTPUT
+// "User John is 27 years old."
+// "User Sarah is 30 years old."
+// "User Maria is 43 years old."
+</code></pre><p>While both of these loops do the same thing, the cleaner approach of the <code>for of</code> loop makes it cleaner when working with long blocks of code. Neither of these is wrong, so feel free to use whichever concept you feel best works for you.</p><h3>The For In Loop</h3><p>The <code>for in</code> loop is different in that it loops through the properties of an Object instead of items in an iterable data structure. We'll do our same example as above and when building our message we'll use the <code>for in</code> loop to loop through the user object.</p><pre class="line-numbers"><code class="language-js">const user = { name: 'John', age: 27, job: 'Janitor' };
+
+// loop through the users and log out a message
+for(let x in user){
+  const message = `${x} - ${user[x]}`;
+  console.log(message);
+}
+    
+// OUTPUT
+// "name - John"
+// "age - 27"
+// "job - Janitor"
+</code></pre><p> </p></div><footer class="wrapper post__footer"><ul class="post__tag"><li><a href="https://justudios.com/tags/javascript/">Javascript</a></li><li><a href="https://justudios.com/tags/tutorials/">JavaScript Knowledge Base</a></li></ul><div class="post__share"></div></footer></article><nav class="post__nav"><div class="post__nav-inner"><div class="post__nav-prev"><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://justudios.com/assets/svg/svg-map.svg#arrow-prev"/></svg> <a href="https://justudios.com/javascript-tutorial-5-a-simple-todo-list.html" class="post__nav-link" rel="prev"><span>Previous</span> JavaScript Tutorial #5 - A Simple ToDo List</a></div><div class="post__nav-next"><a href="https://justudios.com/arrays.html" class="post__nav-link" rel="next"><span>Next</span> Arrays </a><svg width="1.041em" height="0.416em" aria-hidden="true"><use xlink:href="https://justudios.com/assets/svg/svg-map.svg#arrow-next"/></svg></div></div></nav></main><footer class="footer"><div class="footer__copyright"><p>Powered by Publii</p></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://justudios.com/assets/svg/svg-map.svg#toparrow"/></svg></button></footer></div><script defer="defer" src="https://justudios.com/assets/js/scripts.min.js?v=f47c11534595205f20935f0db2a62a85"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script><script src="https://haeglo.com/prism.js"></script></body></html>
